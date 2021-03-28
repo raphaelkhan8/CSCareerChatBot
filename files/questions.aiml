@@ -94,7 +94,7 @@
         <template>Do you enjoy managing and analyzing large datasets and/or have knowledge of SQL and ETL processes?
             <button>
                 <text>Yes</text>
-                <postback>datascientist</postback>
+                <postback>data</postback>
             </button>
             <button>
                 <text>No</text>
