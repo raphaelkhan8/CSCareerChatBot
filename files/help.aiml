@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>help ^ </pattern>
+        <template>For additional help, please schedule an appointment with a student advisor. Choose from the following appointment times:
+            <button>
+                <text>10:00:00 AM CST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>11:00:00 AM CST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>12:00:00 PM CST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>01:00:00 PM CST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>02:00:00 PM CST</text>
+                <postback>thank you</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>thank you</pattern>
+        <template>Thank you! Your appointment has been scheduled and a student advisor will reach out to you at the scheduled appointment time.
+        </template>
+    </category>
+    <category>
+        <pattern>support ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>schedule ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>appointment ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    
+    <category>
+        <pattern>no suggested job</pattern>
+        <template>You have a unique skill-set and we recommend speaking with an advisor for a more personalized experience. Please type "help" to schedule an appointment!</template>
+    </category>
+</aiml>

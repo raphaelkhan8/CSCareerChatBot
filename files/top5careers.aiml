@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>top careers</pattern>
+        <template>5 in-demand careers for Computer Science graduates. Please select one to learn more. 
+            <button>
+                <text>Data Scientist</text>
+                <postback>data</postback>
+            </button>
+            <button>
+                <text>Front-End Developer</text>
+                <postback>frontend</postback>
+            </button>
+            <button>
+                <text>Back-End Developer</text>
+                <postback>backend</postback>
+            </button>
+            <button>
+                <text>Full Stack Developer</text>
+                <postback>fullstack</postback>
+            </button>
+            <button>
+                <text>DevOps Engineer</text>
+                <postback>devops</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

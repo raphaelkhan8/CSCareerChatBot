@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>questions</pattern>
+        <template>Which of the following traits best describes you?
+            <button>
+                <text>Artistic</text>
+                <postback>design question</postback>
+            </button>
+            <button>
+                <text>Analytical</text>
+                <postback>development question</postback>
+            </button>
+            <button>
+                <text>Experienced</text>
+                <postback>experience question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>design question</pattern>
+        <template>Do you have an eye for design and making things look nice?  
+            <button>
+                <text>Yes</text>
+                <postback>frontend question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>devops question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>development question</pattern>
+        <template>Do you like math and working with large datasets?
+            <button>
+                <text>Yes</text>
+                <postback>data question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>backend question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>experience question</pattern>
+        <template> Do you prefer working with web applications?
+            <button>
+                <text>Yes</text>
+                <postback>fullstack question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>devops question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>frontend question</pattern>
+        <template>Do you have any knowledge with HTML, CSS, or JavaScript?
+            <button>
+                <text>Yes</text>
+                <postback>frontend</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>questions</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>backend question</pattern>
+        <template>Do you enjoy working with or have knowledge of servers, APIs, databases, etc?
+            <button>
+                <text>Yes</text>
+                <postback>backend</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>questions</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>data question</pattern>
+        <template>Do you enjoy managing and analyzing large datasets and/or have knowledge of SQL and ETL processes?
+            <button>
+                <text>Yes</text>
+                <postback>datascientist</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>questions</postback>
+            </button>
+        </template>
+    </category>
+    
+        
+    <category>
+        <pattern>fullstack question</pattern>
+        <template>Do you have knowledge of both client and server code and feel no overwhelming prefernce for either side?
+            <button>
+                <text>Yes</text>
+                <postback>fullstack</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>questions</postback>
+            </button>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>devops question</pattern>
+        <template>Do you have a good understanding of how an applicatino or software works throuhgout its entire lifecycle?
+            <button>
+                <text>Yes</text>
+                <postback>devops</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>questions</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

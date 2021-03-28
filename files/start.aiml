@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>start</pattern>
+        <template>
+            Hello, there. I'm Guts, your friendly counselor bot for the Computer Science department here at Falconia University.
+            To get started please select one of the following options: 
+            <button>
+                <text>Learn about top 5 careers</text>
+                <postback>top careers</postback>
+            </button>
+            <button>
+                <text>Help me pick a career</text>
+                <postback>find a career</postback>
+            </button>    
+        </template>
+    </category>
+</aiml>

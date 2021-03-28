@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>hello</pattern>
+        <template>Hello! Welcome to the student career services chat room. Please type "start" to get started.</template>
+    </category>
+    <category>
+        <pattern>hi</pattern>
+        <template>Hello! Welcome to the student career services chat room. Please type "start" to get started.</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry, but <star /> is not a valid input. Please type "start" to begin or "help" to schedule an appointment with a counselor.</template>
+    </category>
+</aiml>
